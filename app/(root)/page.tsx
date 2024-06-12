@@ -99,9 +99,6 @@ const App = () => {
     <div className="flex-1 space-y-4 p-4 pt-6 md:p-8 md:pt-6">      
       <div className="flex items-center justify-between">
         <Heading title="Frontend Developer Text" description="By Juan Romay" />
-        <p className="text-sm text-muted-foreground">
-          type n to start the search
-        </p>         
       </div>
       <Separator />
       <div className="container overflow-y-auto">

@@ -13,6 +13,9 @@ export const Heading: React.FC<HeadingProps> = ({
       <p className="text-sm text-muted-foreground">
         {description}
       </p>
+      <p className="text-sm text-muted-foreground">
+        type n to start the search
+      </p>         
     </div>
   );
 };
